@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Our Menu */
+h1 {
+    text-align: center; /* center "Our menu" */
+    padding: 20px; /* give some space from the top */
+}
+
+/* Chicken, Beef, Seafood */
+h3 {
+    /* no space from top border to top border of heading */
+    margin: 0px;
+    /*give some breathing room on all sides of word to border*/
+    padding: 5px;
+    /*border of 2px black*/
+    border: 2px solid black;
+    position: absolute;    
+    right:  0px;  /*top right instead of top left */
+}
+p {
+    color: black;
+    padding: 45px 10px 10px 10px;
+    /* top padding is 50px, right padding is 10px,
+    bottom padding is 10px, left padding is 15px*/
+}
+.chicken-background {
+    background-color: skyblue;
+    font-weight: bold;  
+}
+.beef-background {
+    background-color: rosybrown;
+    color:  ghostwhite;
+    font-weight: bold;
+}
+.seafood-background {
+    background-color: yellow;
+    font-weight: bold;
+}
+.paragraphs {
+    background-color: dimgray;
+    border: 2px solid black;
+    height: auto;
+    position: relative;
+    font-family: "Arial";
+}
